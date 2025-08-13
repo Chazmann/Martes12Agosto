@@ -8,30 +8,34 @@
     <title>Instructores App</title>
 </head>
 
-<body>
-    <main>
-        <h1>Welcome to the Instructores App</h1>
-        <p>This application allows you to manage instructors and their courses.</p>
+<body class="text-bg-dark">
+<main class="container-fluid">
+    <section class="row ">
+    
+        <div class="col-md-4 col-sm-12 fs-2 bg-info">http://stitch.withgoogle.com/</div>
+        <div class="col-4 fs-2 bg-warning d-md-block d-none"> COMO ESTAS</div>
+        <div class="col-4 fs-2 bg-danger">CHAU</div>
 
-        <nav>
-            <ul>
-                <li><a href="/instructors">Instructors</a></li>
-                <li><a href="/courses">Courses</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-        </nav>
+    </section>
+    <section class="form form-login">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">  
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">    
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        
+    </section>
 
-        <section id="content">
-            <!-- Content will be injected here -->
-        </section>
-    </main>
+</main>
 
-
-
-    <footer>
-
-        <p>&copy; 2023 Instructores App</p>
-    </footer>
+    <script src="../assets/bs5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
