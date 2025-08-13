@@ -1,26 +1,37 @@
-  /* Estilos personalizados para el cuerpo y el contenedor */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card-container {
-            width: 100%;
-            max-width: 400px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px; /* Borde redondeado para el contenedor */
-        }
-        /* Estilo para el botón de registro */
-        .btn-register {
-            background-color: #007bff;
-            border-color: #007bff;
-            font-weight: bold;
-        }
-        .btn-register:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-text); 
+    color: var(--text-color);
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card-container {
+    width: 100%; 
+    max-width: 400px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px; 
+}
+
+.btn-register {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px; 
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
